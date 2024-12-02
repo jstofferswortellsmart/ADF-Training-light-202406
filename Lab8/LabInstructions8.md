@@ -25,8 +25,8 @@ Nu je de locatie van de resource hebt aangegeven. Zal je Azure Data Factory moet
 
 **File Path**
 * De locatie moet dynamische worden, hiervoor kan je Lab6 Opdracht 3 raadplegen ter inspiratie.  
-* Container: ct-ops-< Afdeling >  
-* Directory: data/< database >/< schema >/< object >  
+* Container: < Afdeling >  
+* Directory: Exports / < schema > / < object >  
 * File name: < object >__yyyyMMdd_HHmmss
 
 > ### Extra informatie - @concat() ###  
