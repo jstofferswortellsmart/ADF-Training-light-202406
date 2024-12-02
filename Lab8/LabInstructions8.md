@@ -29,6 +29,17 @@ Nu je de locatie van de resource hebt aangegeven. Zal je Azure Data Factory moet
 * Directory: Exports / < schema > / < object >  
 * File name: < object >__yyyyMMdd_HHmmss
 
+**Overige kenmekren**
+* Compression type: 	  No compression
+* Column delimiter: 	  Semicolon (;)
+* Row delimiter: 		    Line feed (\n)
+* Encoding: 			      UTF-8
+* Quote character: 		  Double quite (‘’)
+* Escape character: 		Backslash (\)
+* First row as header: 	yes
+
+
+
 > ### Extra informatie - @concat() ###  
 > In de Container, Directory en File Name ga je één of meerdere parameters combineren met 'harde tekst'.
 > Hiervoor kan je de Functie @Concat() gebruiken, een voorbeeld:
