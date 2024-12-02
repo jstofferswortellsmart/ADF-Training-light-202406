@@ -53,9 +53,6 @@ Nu je de locatie van de resource hebt aangegeven. Zal je Azure Data Factory moet
 > Gebruik de volgende code om de datum en tijd in je bestandsnaam te krijgen:  
 > formatDateTime(utcnow(), 'yyyyMMdd_HHmmss')
 
-**Overige kenmerken**
-De overige kenmerken zijn gegeven in de Power Point Presentatie
-
 ## Opdracht 3 - Pipeline aanmaken
 Nu de dataset is aangemaakt, kunnen we de pipeline maken.  
 In hoofdlijnen moet de pipeline het volgende doen:  
