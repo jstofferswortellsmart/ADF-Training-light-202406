@@ -179,7 +179,7 @@ Zo kun je bijvoorbeeld een lijst op te halen tabellen uitlezen uit een CSV-besta
 
     ![Verduidelijking stappen 20 t/m 22](https://github.com/jstofferswortellsmart/ADF-Training-light-202406/assets/170087926/67b3eece-8f7a-4543-8c98-569f0ff8ba0c)
 
-23. Klik op de tab **Sink** en kies vervolgens de `DS_aqsl_sqldb_TargetTables_training` linked service, klik daarna op het veld naast **TargetTableName** gevolgd door **Add dynamic content** en type of plak de onderstaande query en druk vervolgens op **OK**: 
+23. Klik op de tab **Sink** en kies vervolgens de `DS_aqsl_sqldb_TargetTables_training` dataset, klik daarna op het veld naast **TargetTableName** gevolgd door **Add dynamic content** en type of plak de onderstaande query en druk vervolgens op **OK**: 
 
     ```sql
     @item().Table_Name
